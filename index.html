@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <script src="index.js" async></script>
-    <title> HZC | Home </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+    <title> SK8 | Início </title>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
         </button>
 
         <a href="index.html">
-            <img src="img/logo.svg" alt="Logotipo da HZC" class="cabecalho-logo">
+            <img src="img/sk8-logo1.png" alt="Logotipo da SK8" class="cabecalho-logo">
         </a>
 
         <button class="cabecalho-notifica" aria-label="Notificação">
@@ -30,8 +32,8 @@
         </button>
     </header>
 
-    <nav class="menu-lateral .menu-lateral-ativo">
-        <img src="img/logo.svg" alt="" class="ml-logo">
+    <nav class="menu-lateral">
+        <img src="img/logo.svg" alt="logo HZC" class="ml-logo">
 
         <a href="#" class="ml-link ml-link-inicio ml-link-ativo">Início</a>
         <a href="#" class="ml-link ml-link-videos">Vídeos</a>
@@ -40,6 +42,251 @@
         <a href="#" class="ml-link ml-link-camisas">Camisas</a>
         <a href="#" class="ml-link ml-link-pinturas">Pinturas</a>
     </nav>
+
+    <main class="principal">
+        <h2 class="titulo-pagina">
+            Início
+        </h2>
+        <article class="cartao destaque">
+            <img src="img/banner-mobile_1.png" alt="banner do cartão" class="cartao-img">
+            <div class="conteudo">
+                <p class="cartao-destaque">
+                    Vídeo em destaque
+                </p>
+
+                <h3 class="cartao-titulo">
+                    Street Life
+
+                </h3>
+
+                <a href="https://github.com/Rafalesson" class="cartao-perfil" target="blank">
+                    Rafa Alesson
+                </a>
+
+                <p class="cartao-info cartao-info-tempo">
+                    15 minutos
+                </p>
+                <p class="cartao-info cartao-info-views">
+                    333 visualizações
+                </p>
+
+                <button class="cartao-botao cartao-botao-play cartao-botao-destaque">
+                    Assistir agora
+                </button>
+            </div>
+        </article>
+
+        <section class="secao">
+            <h3 class="titulo-secao">
+                Vídeo mais vistos
+            </h3>
+
+            <article class="cartao">
+                <img src="img/video_1.png" alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        Rafa Alesson
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        Bonde dos sem padrin
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        33 minutos
+                    </p>
+
+                    <button class="cartao-botao cartao-botao-play" aria-label="Assistir agora"> </button>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="img/video_02.png" alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        Rafa Alesson
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        Pichar é arte!?
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        23 minutos
+                    </p>
+
+                    <button class="cartao-botao cartao-botao-play" aria-label="Assistir agora"> </button>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="img/flora.jpg" alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        Flora Matos
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        Flora de controle
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        23:28 minutos
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=qSoDJGbipYY&ab_channel=MixTape" target="_blank" rel="noopener noreferrer" class="cartao-botao cartao-botao-play">
+                        <button  aria-label="Assistir agora"> </button>
+                    </a>
+                    
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="img/video_2.png" alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        Rafa Alesson
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        Só drip louco
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        33 minutos
+                    </p>
+
+                    <button class="cartao-botao cartao-botao-play" aria-label="Assistir agora"> </button>
+                </div>
+            </article>
+        </section>
+
+        <article class="cartao destaque">
+            <img src="img/banner2.png" alt="banner do cartão" class="cartao-img">
+            <div class="conteudo">
+                <p class="cartao-destaque">
+                    Nova arte
+                </p>
+
+                <h3 class="cartao-titulo">
+                    Grande Chico Ciência
+                </h3>
+
+                <p class="cartao-perfil">
+                    Chico Science
+                </p>
+
+                <p class="cartao-info cartao-info-music">
+                    30 minutos
+                </p>
+                <p class="cartao-info cartao-info-views">
+                    133k visualizações
+                </p>
+
+                <button class="cartao-botao cartao-info-music cartao-botao-destaque">
+                    Ouvir agora
+                </button>
+            </div>
+        </article>
+
+        <section class="secao">
+            <h3 class="titulo-secao">
+                Músicas mais ouvidas
+            </h3>
+
+            <article class="cartao">
+                <img src="img/chico-cerva.jpg" alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        Chico Science
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        A Praieira
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        3:36 minutos
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=jE6p22nz7CU" target="_blank"
+                        class="cartao-botao cartao-info-music" aria-label="Assistir agora">
+                        <button> </button>
+                    </a>
+
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="img/chico2.jpg" alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        Chico Science
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        Maracatu Atômico
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        4:43 minutos
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=_G63uF288T4&ab_channel=RaulMachado" target="_blank"
+                        class="cartao-botao cartao-info-music" aria-label="Assistir agora">
+                        <button> </button>
+                    </a>
+
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="img/baiana.png
+                " alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        BaianaSystem
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        PLAYSOM
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        4:13 minutos
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=ne7E5geBMWE" target="_blank" rel="noopener noreferrer"
+                        class="cartao-botao cartao-info-music" aria-label="Assistir agora">
+                        <button> </button>
+                    </a>
+
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="img/baiana1.jpg" alt="banner do cartão" class="cartao-img">
+                <div class="conteudo">
+                    <p class="cartao-perfil">
+                        BaianaSystem
+                    </p>
+
+                    <h3 class="cartao-titulo">
+                        Arapuca
+                    </h3>
+
+                    <p class="cartao-info cartao-info-tempo">
+                        1:43 minutos
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=nu03Ekqj6RI&list=RDne7E5geBMWE&index=2&ab_channel=BaianaSystem-Topic" target="_blank" rel="noopener noreferrer" class="cartao-botao cartao-info-music" aria-label="Assistir agora">
+                        <button > </button>
+                    </a>
+                    
+                </div>
+            </article>
+        </section>
+    </main>
 
 
 </body>
